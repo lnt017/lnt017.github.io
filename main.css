@@ -1,10 +1,10 @@
 html{
-    background-image: linear-gradient(to bottom, white 0%,)
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 }
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
     width: 1000px;
     background-color: white;
     margin: 15px auto;
@@ -28,26 +28,35 @@ header h2{
     color: #800000;
     text-indent: 30px;
 }
-img{
+header img {
     float: left;
-    text-shadow: 2px 2px 2px rgb(128, 0, 0)
 
+}
+.shadow {
+    text-shadow: 2px 2px 2px rgb(128, 0, 0)
 }
 
 main{
-    clear: left
+    clear: left;
 }
 
 main h3 {
-    margin-top: 3em;
-    font-size: 105%;
-
+    font-size: 105%
+    margin: 3em 2em 1.5em;
+    border: 5px double blue ; 
+}
+main nav{
+    font-size: 105%
+    margin: 1.5em 2em 1.5em;
+}
+main div.contact{
+    margin: 1.5em 2em 0em 2em;
 }
 #list {
     line-height: 1.5em;
 }
 
-footer p.copyright{
+footer p.copyright {
     text-align: center;
     font-size: 80%
 }
