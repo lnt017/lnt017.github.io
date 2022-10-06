@@ -51,6 +51,7 @@ main h3 {
 main nav {
     font-size: 105%
     margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
 }
 main div.contact {
     margin: 1.5em 2em 0em 2em;
