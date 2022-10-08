@@ -5,6 +5,7 @@ html{
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
+    margin-left: 10px;
     width: 90%;
     background-color: white;
     margin: 15px auto;
@@ -17,8 +18,6 @@ body{
 a:focus, a:hover{
     font-style:italic;
     color: orangered;
-    border: 3px blue;
-    border-style: dotted solid;
 }
 header h1{
     font-size: 175%;
@@ -27,18 +26,20 @@ header h1{
 }
 header h2{
     font-size: 130%;
-    color: #800000;
+    color: 8000000;
     text-indent: 30px;
 }
-header img {
+img {
     float: left;
-    margin: left;
+    text-shadow: 2px 2px 2 px rgb(128, 0, 0);
+    margin-left: 2em;
 
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0)
 }
 article {
+    clear: left;
     width: 70%;
     float: left;
     column-count: 2;
@@ -60,11 +61,11 @@ article p::first-letter {
     font-style: italic;
     color: lightgreen;
 }
-aside { 
-    width: 20%
+aside{ 
+    width: 20%;
     float: right;
     padding: 0.1em 1em 1em;
-    background-color: #ffebc6;
+    background-color: yellowgreen;
 }
 footer {
     clear: both;
@@ -79,8 +80,9 @@ p.fixed{
     width: auto;
     position: fixed;
     bottom: 35%;
-    right: 0;
+    right: 0%;
     border: 3px solid darkgreen;
     background-color:lightgreen;
+    padding: 2em;
 
 }
