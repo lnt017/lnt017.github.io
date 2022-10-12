@@ -33,7 +33,6 @@ header h2{
 }
 header img {
     float: left;
-    text-shadow: 2px 2px 2 px rgb(128, 0, 0);
     margin-left: 2em;
 
 }
