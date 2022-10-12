@@ -21,6 +21,9 @@ a:focus, a:hover{
     border: 3px blue;
     border-style: dotted solid;
 }
+header {
+    display: block;
+}
 header img {
     float: left;
     margin-left: 2em;
