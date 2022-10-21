@@ -13,10 +13,6 @@ body{
 header {
     display: block;
 }
-header img {
-    float: left;
-    margin-left: 2em;
-}
 
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
