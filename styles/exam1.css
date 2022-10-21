@@ -57,6 +57,7 @@ article p::first-letter {
 
 article h2 {
     color: blue;
+    column-span: all;
 }
 
 aside { 
