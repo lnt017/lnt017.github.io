@@ -30,6 +30,8 @@ header {
 }
 #nav_menu {
     display:inline-block;
+    position: fixed;
+    top: 0px;
 }
 
 article {
