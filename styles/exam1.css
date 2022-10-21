@@ -28,6 +28,9 @@ header {
     color:blue;
     border-top: 2px solid blue;
 }
+#nav_menu {
+    display:block;
+}
 
 article {
     clear: left;
