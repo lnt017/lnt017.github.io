@@ -50,6 +50,11 @@ article p::first-letter {
     font-style: italic;
     color: lightblue;
 }
+h1 {
+    font-size: 170%;
+    margin-top: 0;
+    column-span: all;
+}
 h2 {
     font-size: 170%;
     margin-top: 0;
