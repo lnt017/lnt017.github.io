@@ -29,7 +29,7 @@ header {
     border-top: 2px solid blue;
 }
 #nav_menu {
-    display:inline-block;
+    display:block;
     position: fixed;
     top: 0px;
 }
