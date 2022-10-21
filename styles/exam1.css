@@ -4,6 +4,7 @@ body{
     margin-left: 10px;
     width: 90%;
     background-color: white;
+    width: 95%;
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
@@ -32,7 +33,7 @@ header {
 
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
