@@ -70,7 +70,7 @@ article h2 {
 
 aside { 
     width: 20%;
-    float: right;
+    float: left;
     padding: 0.1em 1em 1em;
     background-color: lightblue;
     border: 2px solid blue;
