@@ -50,6 +50,7 @@ article p::first-letter {
     font-style: italic;
     color: lightblue;
 }
+
 aside { 
     width: 20%;
     float: right;
