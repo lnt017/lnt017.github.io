@@ -9,10 +9,6 @@ body{
     padding: 15px 1.5em;
 }
 
-header {
-    display: block;
-}
-
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
