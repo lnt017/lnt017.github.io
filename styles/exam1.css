@@ -69,8 +69,10 @@ aside {
     float: right;
     padding: 0.1em 1em 1em;
     background-color: lightblue;
+    border: black;
 }
 footer {
     clear: both;
     border-top: 2px solid blue;
+    text-align: center;
 }
