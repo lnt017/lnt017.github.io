@@ -26,7 +26,7 @@ body{
 
 header {
     color:blue;
-    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
 }
 
 article {
