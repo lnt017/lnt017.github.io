@@ -72,11 +72,6 @@ article h2 {
     color: blue;
 }
 
-.wrappingimage {
-    float: left;
-    margin: 30px 12px 3px 4px;
-}
-
 aside { 
     width: 20%;
     float: right;
