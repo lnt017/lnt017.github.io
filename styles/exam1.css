@@ -14,6 +14,11 @@ body {
     box-shadow: 5px 5px 0 0;
 }
 
+head {
+    color:blue;
+    border-top: 2px solid blue;
+}
+
 #nav_menu ul { list-style-type: none; }
 
 #nav_menu ul li { float: left; }
@@ -36,8 +41,6 @@ body {
 #nav_menu {
     display: block;
     float: top;
-    color:blue;
-    border-top: 2px solid blue;
 }
 
 article {
