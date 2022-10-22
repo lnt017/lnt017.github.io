@@ -15,7 +15,9 @@ body {
 }
 
 #nav_menu ul { list-style-type: none; }
+
 #nav_menu ul li { float: left; }
+
 #nav_menu ul li a {
     text-align: center;
     display: block;
@@ -26,17 +28,16 @@ body {
     color: white;
     font-weight: bold;
     border-right: 2px solid white; }
-#nav_menu ul li a.lastitem { border-right: none; }	
-#nav_menu ul li a.current { color: yellow; }
 
-header {
-    color:blue;
-    border-top: 2px solid blue;
-}
+#nav_menu ul li a.lastitem { border-right: none; }	
+
+#nav_menu ul li a.current { color: yellow; }
 
 #nav_menu {
     display: block;
     float: top;
+    color:blue;
+    border-top: 2px solid blue;
 }
 
 article {
