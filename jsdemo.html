@@ -11,36 +11,23 @@
 <script src="test_scores.js"></script>
 <h1>The Miles Per Gallon Calculator</h1>
 <script>
-    const miles = parseInt (prompt ("Enter miles driven")):
-16
-const gallons = parseInt (prompt ("Enter gallons of gas used")) :
-17
-cost mpg = parseFloat(miles/gallons);
-18
-const html2 = ‹p›Miles: ${miles}</p>
-19
-<p›Gallons: ${gallons]</p>
-20
-<p>MPG: ${mpg.toFixed(2)]</p>°;
-document.write(html2);
-21
-</script›
-22
-<h1»The Area of Gallon a Rectangle‹/h1›
-23
-‹script>
-24
-const width = parseFloat(prompt ("Enter width")) ;
-25
-26
-const height = parseFloat (prompt ("Enter height")) :
-const area = parseFloat (width*height);
-27
-const html3 =
-*‹p›width: $(width]</p>
-28
-‹p›height: ${height}</p>
-29
-30
-‹p›area: $(area.toFixed(3)]</p»°;
+    const miles = parseInt (prompt ("Enter miles driven"));
+    const gallons = parseInt (prompt ("Enter gallons of gas used"));
+    const mpg = parseFloat(miles/gallons);
+    const html2 = '<p>Miles: ${miles}</p>
+                   <p>Gallons: ${gallons}</p>
+                   <p>MPG: ${mpg.toFixed(2)}</p>;
+    document.write(html2);
+</script>
+<h1>The Area of Gallon a Rectangle</h1>
+<script>
+        const width = parseFloat(prompt ("Enter width"));
+        const height = parseFloat (prompt ("Enter height"));
+        const area = parseFloat (width*height);
+        const html3 ='<p>width: $(width]</p>
+                      <p>height: ${height}</p>
+                      <p>area: ${area.toFixed(3)}</p>';
 document.write(html3);
+</script>
+</body>
+</html>
