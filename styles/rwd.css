@@ -22,11 +22,6 @@ html {
 head {
     display: none;
 }
-html, body {
-    margin: 0;
-    height: 100%;
-    font-size: 100%;
-}
 
 body {
     display: block;
